@@ -1,3 +1,6 @@
-for i in range(10):
+x = int(input("Enter a number: "))
+
+
+for i in range(x):
     print(i)
 
