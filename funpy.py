@@ -1,6 +1,10 @@
 x = int(input("Enter a number: "))
 
 
-for i in range(x):
-    print(i)
 
+y = []
+for i in range(x):
+    y.append(i)
+
+print(y)
+print("List of numbers from 0 to", x-1, ":", y)
