@@ -2,7 +2,7 @@ x = int(input("Enter a number: "))
 
 print("You entered:", x)
 print(x)
-
+print("Hello, FunPy!")
 y = []
 for i in range(x):
     y.append(i)
