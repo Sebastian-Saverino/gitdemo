@@ -1,6 +1,7 @@
 x = int(input("Enter a number: "))
 
 print("You entered:", x)
+print(x)
 
 y = []
 for i in range(x):
