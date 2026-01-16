@@ -1,5 +1,8 @@
+import requests as req
 import pandas as pd
 x = int(input("Enter a number: "))
+
+
 
 print("You entered:", x)
 print(x)
