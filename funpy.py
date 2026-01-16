@@ -1,6 +1,6 @@
 x = int(input("Enter a number: "))
 
-
+print(x)
 
 y = []
 for i in range(x):
