@@ -16,3 +16,6 @@ for i in range(x):
 
 print(y)
 print("List of numbers from 0 to", x-1, ":", y)
+
+data = {'Numbers': y}
+df = pd.DataFrame(data)
