@@ -19,3 +19,5 @@ print("List of numbers from 0 to", x-1, ":", y)
 
 data = {'Numbers': y}
 df = pd.DataFrame(data)
+
+print(df)
