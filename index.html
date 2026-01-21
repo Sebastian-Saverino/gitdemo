@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git Practice Repo | Sebastian</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <h1>Git Practice Repository</h1>
+      <p class="subtitle">A tiny website built to practice commits, branches, merges, and restores.</p>
+
+      <div class="badge-row">
+        <span class="badge">Static HTML/CSS</span>
+        <span class="badge">2 Branch Workflow</span>
+        <span class="badge">Safe Undo Practice</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main">
+
+    <section class="card">
+      <h2>What this repo is for</h2>
+      <p>
+        This project is intentionally small so you can make quick edits, commit often, and learn Git
+        by doing. The website is part of the practice: every section is an easy spot to modify and
+        create clear commits.
+      </p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Branches</h2>
+        <ul>
+          <li><strong>main</strong> — stable “final” site</li>
+          <li><strong>feature-practice</strong> — experiment branch</li>
+        </ul>
+        <p class="hint">
+          Practice: change one sentence on <code>feature-practice</code> and merge into <code>main</code>.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Commits</h2>
+        <ul>
+          <li>Edit the “Practice Log” below</li>
+          <li>Update one style rule in <code>styles.css</code></li>
+          <li>Add a line to <code>notes.txt</code></li>
+        </ul>
+        <p class="hint">
+          Tip: keep commits small — one idea per commit.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Merges</h2>
+        <ul>
+          <li>Fast-forward merge (simple updates)</li>
+          <li>Normal merge commit (keep branch history)</li>
+          <li>Optional: create a tiny conflict on purpose</li>
+        </ul>
+        <p class="hint">
+          Practice: change the same line on both branches and resolve it.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Restores & Undo</h2>
+        <ul>
+          <li>Restore a file you edited by mistake</li>
+          <li>Revert a commit (safe undo)</li>
+          <li>Reset locally (learn the difference)</li>
+        </ul>
+        <p class="hint">
+          Practice: break a CSS rule, then restore the file.
+        </p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Practice Log</h2>
+      <p class="small">
+        Update these checkboxes as you practice. This section is designed for quick commits.
+      </p>
+
+      <div class="checklist">
+        <label><input type="checkbox" /> Created <code>feature-practice</code> branch</label>
+        <label><input type="checkbox" /> Made 3 small commits</label>
+        <label><input type="checkbox" /> Merged <code>feature-practice</code> into <code>main</code></label>
+        <label><input type="checkbox" /> Resolved a merge conflict</label>
+        <label><input type="checkbox" /> Restored a file back to last commit</label>
+        <label><input type="checkbox" /> Reverted a commit safely</label>
+      </div>
+
+      <p class="hint">
+        Note: checkboxes won’t save (static site) — but editing this list is perfect commit practice.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Quick Commands (for practice)</h2>
+      <div class="codeblock">
+        <pre><code># create branch + switch
+git switch -c feature-practice
+
+# stage + commit
+git add .
+git commit -m "Update practice log"
+
+# merge into main
+git switch main
+git merge feature-practice
+
+# restore a file (discard uncommitted changes)
+git restore styles.css
+
+# revert a commit (safe undo)
+git revert &lt;commit-hash&gt;</code></pre>
+      </div>
+      <p class="small">
+        You don’t need to run all of these right now—this is just a handy reference on the page.
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>Made for Git practice • <span class="muted">Sebastian</span></p>
+      <p class="muted small">Edit anything on this page to create clean commits.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
