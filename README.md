@@ -1,5 +1,7 @@
 # Git Practice Repository
 
+You can view a website using a little bit of html/javascript/css here to test out using gh pages: https://sebastian-saverino.github.io/gitdemo/
+
 This repository is a simple collection of files used to practice and demonstrate
 core Git workflows, including:
 
